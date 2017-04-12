@@ -1,11 +1,18 @@
 SOUNDFONT?=/usr/share/sounds/sf2/FluidR3_GM.sf2
 
-wav: trio.wav
+LILY:=$(wildcard *i.ly)
+MIDI:=$(LILY:.ly=.midi)
+WAV:=$(LILY:.ly=.wav)
 
-trio.midi: trio.ly trio-1.ly
-	lilypond $<
+all: $(WAV) trio.pdf
 
-trio.wav: trio.midi
+%.midi: %.ly
+	echo "making $@"
+	lilypond trio.ly
+
+%.wav: %.midi
+	echo "making $@"
 	fluidsynth -F $@ $(SOUNDFONT) $<
 
-.PHONY: wav
+trio.pdf: trio.ly
+	lilypond trio.ly
