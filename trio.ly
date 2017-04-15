@@ -10,13 +10,13 @@
 	\score {
 		\movement_i
 		\layout {}
-		\header { piece = "Fugue" }
 	}
+	%{
 	\score {
 		\movement_iii
 		\layout{}
-		\header { piece = "Allegro" }
 	}
+	%}
 }
 
 \book {
@@ -26,6 +26,7 @@
 		\midi {}
 	}
 }
+%{
 \book {
 	\bookOutputSuffix "iii"
 	\score {
@@ -33,4 +34,4 @@
 		\midi {}
 	}
 }
-
+%}
