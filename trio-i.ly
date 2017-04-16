@@ -9,7 +9,7 @@ violin_i_i = \new Voice \relative c'' {
 	b4 g4 c4. b16 a |
 	g8 g16 a g8 f e a4 g8 |
 	f8 f16 g f8 e d g4 f8 |
-	e8 r r4 f b |
+	e8 r r e a4 b |
 	c8 c16 d c8 e f2~ |
 	f8 g,16 a b8 c16 d e8 c f e |
 	a8 f bes a gis e a4~ |
@@ -36,7 +36,7 @@ violin_ii_i = \new Voice \relative c' {
 	g8 f e4 g4 fis |
 	g8 r r4 c,8 c16 d c8 b |
 	a8 d4 c8 b b16 c b8 a |
-	g8 r r16 e' d c b a g8. f'16 e d |
+	g8 r r c f e d4 |
 	c8 g' c b a d16 e d8. c16 |
 	b2~ b8 b a g |
 	f8 e' d c~ c b16 gis a8 b |
@@ -51,7 +51,7 @@ violin_ii_i = \new Voice \relative c' {
 	d8 a8 d8 c8 b8 e16 f16 e8. d16 |
 	c8 g'8 fis8 e8 d4. c8 |
 	b8 c16 b16 a4 b8 r8 r4 |
-	r1 |
+	r4 c4~ c8 c b a |
 	r8 d8 g8 f8 e8 a16 bes16 a8. g16 |
 	fis4. g16 f16 e4 c |
 	f4. g16 f16 e2 \bar "|."
@@ -64,7 +64,7 @@ cello_i = \new Voice \relative c {
 	b8 r8 r16 g a b c d e8. c16 d e |
 	f16 e f8 r16 f, g a b c d8. g,16 a b |
 	c8 c f e d g16 a g8. f16 |
-	e8 r8 r16 b' a g f e d8. c'16 b a |
+	e8 r8 r4 r2 |
 	g8 f e d c4~ c16 c d e |
 	f4. f8 e d c d |
 	e8 d e e, a r8 r4 |
@@ -75,7 +75,7 @@ cello_i = \new Voice \relative c {
 	fis8 d8 e8 fis8 g8 e8 fis8 gis8 |
 	a8 g8 fis8 e8 d b c d |
 	e8 f e8 d8 cis8 a8 b8 cis8 |
-	d8 r4 a'8 g8 r4 b8 |
+	d8 r r a' g r r b |
 	a8 e8 a8 g8 fis8 b16 c16 b8 a8 |
 	d,2 g,8 d'8 g8 f8 |
 	e8 a16 b16 a8. g16 fis8 d8 e8 fis8 |
