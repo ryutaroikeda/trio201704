@@ -1,6 +1,6 @@
 global_i = {
 	\time 4/4
-	\tempo 4 = 70
+	\tempo 4 = 72
 }
 
 violin_i_i = \new Voice \relative c'' {
@@ -88,21 +88,21 @@ movement_i = \score {
 	<<
 		\new StaffGroup <<
 			\new Staff \with {
-				midiInstrument = #"clarinet"
+				midiInstrument = #"string ensemble 1"
 				instrumentName = #"Violin I"
 			} <<
 				\clef treble
 				\global_i \violin_i_i
 			>>
 			\new Staff \with {
-				midiInstrument = #"clarinet"
+				midiInstrument = #"string ensemble 1"
 				instrumentName = #"Violin II"
 			} << 
 				\clef treble
 				\global_i \violin_ii_i
 			>>
 			\new Staff \with {
-				midiInstrument = #"clarinet"
+				midiInstrument = #"string ensemble 1"
 				instrumentName = #"Cello"
 			} << 
 				\clef bass
