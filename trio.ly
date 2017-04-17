@@ -5,7 +5,7 @@
 
 \book {
 	\header {
-		title = "Trio"
+		title = "Trio Sonata"
 	}
 	\score {
 		\movement_i
